@@ -1,0 +1,27 @@
+﻿<UserControl x:Class="SnakL.OptionsHelper" xmlns:local="clr-namespace:SnakL"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             FontFamily="Consolas" MinWidth="250">
+    <Border Background="#7FC8C8C8" BorderBrush="Black" Margin="10,5">
+        <Grid>
+            <Grid.RowDefinitions>
+                <RowDefinition Height="Auto"/>
+                <RowDefinition Height="Auto"/>
+                <RowDefinition Height="Auto"/>
+            </Grid.RowDefinitions>
+
+            <Grid Grid.Row="0">
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition Width="*"/>
+                    <ColumnDefinition Width="Auto"/>
+                </Grid.ColumnDefinitions>
+                <Label x:Name="Title" Content="Title" FontSize="24" FontWeight="Bold" Padding="3" Grid.Column="0" VerticalAlignment="Top"/>
+                <Label x:Name="Position" Content="01/42" FontSize="24" Padding="3" Grid.Column="1" VerticalAlignment="Top"/>
+            </Grid>
+
+            <TextBox x:Name="Value" Text="Value" PreviewTextInput="NumberValidationTextbox" ToolTip="Value" FontSize="20" Margin="5,0,5,5" Grid.Row="1" MaxLines="1" VerticalContentAlignment="Center" Padding="5,0"/>
+
+            <TextBlock x:Name="Info" Text="Information" FontSize="15" Margin="5,0,5,5" Grid.Row="2" VerticalAlignment="Top"/>
+        </Grid>
+    </Border>
+</UserControl>

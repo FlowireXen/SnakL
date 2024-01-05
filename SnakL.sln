@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.34301.259
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SnakL", "SnakL\SnakL.csproj", "{0D84D07D-75AA-48A5-B572-C0ABCBEB3A43}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{0D84D07D-75AA-48A5-B572-C0ABCBEB3A43}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0D84D07D-75AA-48A5-B572-C0ABCBEB3A43}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0D84D07D-75AA-48A5-B572-C0ABCBEB3A43}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0D84D07D-75AA-48A5-B572-C0ABCBEB3A43}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {41591826-3920-43C7-A7C8-64F60465C14F}
+	EndGlobalSection
+EndGlobal
